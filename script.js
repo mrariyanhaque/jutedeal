@@ -22,7 +22,7 @@ async function sendMessage() {
   // Simulated chatbot response (replace this with your API call)
   try {
     // Simulate API request and response
-    const response = await fetch('https://api.example.com/chat', {
+    const response = await fetch('https://vertex.googleapis.com/chat', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
